@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "docinterrogator"
+version = "0.1.0"
+description = ""
+authors = ["JazBern <jasmine0696@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+torch = "^2.0.1"
+transformers = "^4.30.0"
+urllib3 = "<2.0"
+pillow = "^9.5.0"
+sentencepiece = "^0.1.99"
+protobuf = "=3.20.1"
+jupyter = "^1.0.0"
+pytesseract = "^0.3.10"
+pdf2image = "^1.16.3"
+pytest = "^7.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
