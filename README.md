@@ -1,6 +1,6 @@
 # DocInterrogator
 
-The `DocInterrogator` class provides a way to extract answers from various document analysis models. It supports three different model types: 'donut', 'layoutlm', and 'pix2struct'.
+The `DocInterrogator` class provides a way to extract answers from PDFs and images. It supports three different model types: 'donut', 'layoutlm', and 'pix2struct'.
 
 ## Installation
 
